@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+sensor_log.csv
+latest_placeholder.json
+uvicorn.log
