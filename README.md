@@ -20,3 +20,15 @@ This project implements an AIoT-based Digital Twin Simulator for real-time machi
 
 ## How to Run
 1. Start FastAPI server:
+
+uvicorn server:app --reload --host 0.0.0.0 --port 5000
+
+2. Start Streamlit dashboard:
+streamlit run app.py
+
+markdown
+Copy code
+3. Power ESP32 (ensure same WiFi network)
+
+## Author
+Praveen Kumar
